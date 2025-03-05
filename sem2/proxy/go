@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gcc -o proxy main.c proxy.c cache.c logger.c -pthread
+./proxy
